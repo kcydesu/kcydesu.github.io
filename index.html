@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<script type="text/javascript" src="app.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<!--link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous"-->
+
+	</head>
+	<body onload="onLoad()" id="body" data-spy="scroll" data-target="#main-navbar">
+		<header id="header" class="header-main">
+
+        <!-- Classes: navbar-default, navbar-inverse, navbar-fixed-top, navbar-fixed-bottom, navbar-transparent.
+             Note: If you use non-transparent navbar, set "height: 98px;" to #header -->
+
+        <nav id="main-navbar" class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+              <ul class="nav navbar-nav">
+                  <li><a class="page-scroll" href="#body">Home</a></li>
+                  <li><a class="page-scroll" href="#about">About</a></li>
+                  <li><a class="page-scroll" href="#donate">Donate</a></li>
+                  <li><a class="page-scroll" href="#signup">Sign Up</a></li>
+                  <li><a class="page-scroll" href="#social">Social</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <section id="text-carousel-intro-section" class="parallax" data-stellar-background-ratio="0.5" style="background-image: url(img/site-header.jpg)">
+        <div class="container" id="introwhole">
+          <div class="caption text-center text-white" data-stellar-ratio="0.7">
+            <div>
+              <div class="item">
+                <div><img id="event-logo" src="img/header.png"></img></a></div>
+                <br>
+                <p id="event-date"><strong>Klothes 4 Kids</strong></p>
+                <p id="event-slogan"><strong>A world where every child has access to proper clothing.</strong></p>
+                <p id="countdown"></p>
+              </br>
+                <a href="#donate"><button type="button" class="btn btn-blank btn-lg" id="main-donate" target="_blank" role="button">
+                  <strong>Donate</strong>
+                </button></a>
+                 <button type="button" class="btn btn-blank btn-lg page-scroll" id="main-signup" href="#signup" target="_blank" role="button">
+                  <strong>Sign Up</strong></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <section id="about" class="page bg-style1">
+
+        <!-- Begin page header-->
+        <div class="page-header-wrapper">
+          <div class="container">
+            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.3s">
+              <h2>About</h2>
+              <div class="devider"></div>
+              <p class="subtitle">Ensuring every child in the Philadelphia area has access to proper clothing for school, sports, and ceremonies.</p>
+            </div>
+          </div>
+        </div>
+        <!-- End page header-->
+  
+     
+        <!-- Begin rotate box-1 -->
+        <div class="rotate-box-1-wrapper">
+          <div class="container">
+            <div class="row" >
+
+              <div class="col-md-4 col-sm-12 about">
+                <span class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0" >
+                  <span class="rotate-box-icon"><i class="fa fa-lg fa-users" style="color: black"></i></span>
+                  <div class="rotate-box-info">
+                    <h4>Who Are We?</h4>
+                    <p>Started in 2017 by Casey Bruno and Vincent Limon, two students currently enrolled at Temple University located in the heart of the North Philadelphia Community.</p>
+                  </div>
+                </span>
+              </div>
+
+              <div class="col-md-4 col-sm-12 about">
+                  <span class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.2s">
+                    <span class="rotate-box-icon"><i class="fa fa-lg fa-child" style="color: black"></i></span>
+                    <div class="rotate-box-info">
+                        <h4>What Do We Do?</h4>
+                        <p>Klothes 4 Kids services the Philadelphia Metro area by providing access to proper clothing to every child in need.  Every month, we travel to a different neighborhood/town in the Philadelphia area and visit the local school to distribute the clothing working with local school administrators.</p>
+                    </div>
+                  </span>
+                </a>
+              </div>
+
+              <div class="col-md-4 col-sm-12 about">
+                <span class="rotate-box-1 square-icon wow zoomIn" data-wow-delay="0.4s">
+                  <span class="rotate-box-icon"><i class="fa fa-lg fa-heart" style="color: black"></i></span>
+                  <div class="rotate-box-info">
+                    <h4>Why We Do It?</h4>
+                    <p>Casey and Vincent were both influenced in their college years by the Childrens Miracle Network, and found a place where they could get involved locally and make a difference. </p>
+                  </div>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="donate" class="page text-center">
+
+        <!-- Begin page header-->
+        <div class="page-header-wrapper">
+          <div class="container">
+            <div class="page-header text-center wow fadeInDown" data-wow-delay="0.4s">
+              <h2>Donate</h2>
+              <div class="devider"></div>
+              <p class="subtitle">Ways to donate</p>
+            </div>
+          </div>
+        </div>
+        <!-- End page header-->
+
+        <!-- Begin roatet box-2 -->
+        <div class="rotate-box-2-wrapper">
+          <div class="container">
+            <div class="row">
+
+              <div class="col-md-4 col-sm-12 services">
+                <div class="rotate-box-2 square-icon text-center wow zoomIn">
+                  <span class="rotate-box-icon"><i class="fa fa-building" style="color: black"></i></span>
+                  <div class="rotate-box-info">
+                    <h4>Come to our Office!</h4>
+                    <p>Our office is located at 2301 N Broad Street, which is easily accessible via SEPTA Buses, the Broad Street Line, by car, and by walking.  Our office is fully staffed Monday-Friday 9am - 5pm with people to take your gently used clothing.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-sm-12">
+                <div class="rotate-box-2 square-icon text-center wow zoomIn">
+                  <span class="rotate-box-icon"><i class="fa fa-envelope-open" style="color: black"></i></span>
+                  <div class="rotate-box-info">
+                    <h4>Mail them to Us!</h4>
+                    <p>Fill out our Donation Form and just put it inside the box when you mail it.  By filling out the donation form, we will send you a receipt in the mall so you can get your tax deduction.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4 col-sm-12 services">
+                <div class="rotate-box-2 square-icon text-center wow zoomIn">
+                  <span class="rotate-box-icon"><i class="fa fa-truck" style="color: black"></i></span>
+                  <div class="rotate-box-info">
+                    <h4>Pick-Up Option!</h4>
+                    <p>Once a month, a Klothes 4 Kids Representative will travel throughout the Philadelphia area to pickup clothes directly from the people who either cannot bring them to the office or mail them to the office.  Simply call our offices to schedule a pickup time.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+      </div>
+  </section>
+
+      <footer id="social" class="text-off-white">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row wow bounceInLeft" data-wow-delay="0.4s">
+
+              <div class="col-sm-6 col-md-4">
+                <ul class="imp-links fa-ul">
+
+                  <h4>Contact Us</h4>
+                  <li><i class="fa-li fa fa-map-marker fa-lg text-white"></i><a href="https://goo.gl/maps/Xa141ughGQ82" target="_blank" ><span style="font-family: Roboto, Helvetica, Arial, sans-serif; font-size: 16px; line-height: 125%; font-weight:normal;">&nbsp;&nbsp;Klothes 4 Kids<br><span style="padding-left: 10px">2301 N Broad Street</span><br><span style="padding-left: 10px">Philadelphia, PA 19132</span><br></span><br></a></li>
+                  <li><i class="fa-li fa fa-clock-o text-white"></i>&nbsp;&nbsp;
+                  	Hours of Operation:<br><span style="padding-left: 10px">Monday-Friday 9am-5pm</span><br></li>
+                  <li><i class="fa-li fa fa-phone text-white"></i>&nbsp;&nbsp;(215) 555-2355<br></li>
+                  <li><i class="fa-li fa fa-envelope text-white"></i><a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&tf=1&to=klothes4kids@gmail.com" target="_blank">&nbsp;&nbsp;klothes4kids@gmail.com</a></li>
+
+                  <br/>
+                  <br/>
+                </ul>
+              </div>
+
+              <div class="col-sm-6 col-md-4">
+              </div>
+
+              <div class="col-sm-12 col-md-4">
+                <h4><b>Klothes 4 Kids Social Media</b><br>@klothes4kids</h4>
+  				<i class="fa fa2 fa-facebook" style="padding-left: 10px"></i>
+				<i class="fa fa2 fa-twitter"></i>
+            	<i class="fa fa2 fa-instagram"></i>
+				<i class="fa fa2 fa-snapchat"></i>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <footer class="text-off-white">
+          <div class="footer">
+            <div class="container text-center wow fadeIn" data-wow-delay="0.4s">
+              <p class="copyright">
+                Copyright &copy; <script>document.write(new Date().getFullYear());</script> Klothes 4 Kids | Developed & Maintained by the Casey Bruno and Vincent Limon | Developed and Hosted on GitHub<br>Header Image Supplied by: https://www.babble.com/style/12-places-to-donate-clothes/<a style="color: #e7e7e7"></a>
+              </p>
+            </div>
+          </div>
+        </footer>
+	</body>
+</html>
